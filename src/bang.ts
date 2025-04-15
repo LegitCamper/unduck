@@ -2,6 +2,15 @@
 
 export const bangs = [
   {
+    c: "Online Services",
+    d: "search.sawyer.services",
+    r: 0,
+    s: "Searxng",
+    sc: "Searxng",
+    t: "s",
+    u: "https://search.sawyer.services/search?q={{{s}}}",
+  },
+  {
     c: "AI",
     d: "www.t3.chat",
     r: 0,
@@ -98318,15 +98327,6 @@ export const bangs = [
     sc: "Reference",
     t: "ss",
     u: "https://surrey-primotc.hosted.exlibrisgroup.com/primo-explore/search?vl(freeText0)={{{s}}}&fn=search&vid=44SUR_VU1&tab=default_tab&query=any,contains,{{{s}}}&search_scope=default_scope",
-  },
-  {
-    c: "Online Services",
-    d: "startpage.com",
-    r: 12469,
-    s: "startpage.com",
-    sc: "Search",
-    t: "s",
-    u: "http://startpage.com/do/metasearch.pl?query={{{s}}}",
   },
   {
     c: "Research",
